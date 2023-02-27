@@ -1,0 +1,591 @@
+import {
+
+    combineReducers,
+
+    createAsyncThunk,
+
+    createSlice,
+
+    PayloadAction,
+
+} from "@reduxjs/toolkit";
+
+import axios from "axios";
+
+import { AnyIfEmpty } from "react-redux";
+
+import { baseUrl } from "../../../constants/apiUrl";
+
+import { ISavedFmecaData } from "./interface/systemFmeca";
+
+ 
+
+interface SystemFmecaState {
+
+    loading: boolean;
+
+    isModalShow:boolean;
+
+    isError:boolean;
+
+    partRiskData: any | null;
+
+    errors: any;
+
+    deletedPartRisk: boolean,
+
+    savedPartRiskToDb: any | null;
+
+    updatedPartRiskToDb: any | null;
+
+    fmecaHeader: any | null;
+
+    updateFmecaHeader: any | null;
+
+    fmecaNotes: any | null;
+
+    createNote: any | null;
+
+    updateNote: any | null;
+
+}
+
+ 
+
+const initialState: SystemFmecaState = {
+
+    loading: false,
+
+    partRiskData: null,
+
+    deletedPartRisk: false,
+
+    savedPartRiskToDb: null,
+
+    updatedPartRiskToDb: null,
+
+    fmecaHeader: null,
+
+    updateFmecaHeader: null,
+
+    fmecaNotes: null,
+
+    createNote: null,
+
+    updateNote: null,
+
+    errors: null,
+
+    isModalShow:false,
+
+    isError:false,
+
+};
+
+ 
+
+/**
+
+ * Gets the saved reports of the logged in user
+
+ * @param userId - Logged in userId
+
+ * @todo Need to change the userId to Logged in user ID
+
+ */
+
+ 
+
+export const getFMECAHeaderByFMECAID = createAsyncThunk<any, number>(
+
+    "@@riskAssessment/getFMECAHeaderByFMECAID",
+
+    async (id, thunkAPI) => {
+
+        try {
+
+            const response = await axios.get(`${baseUrl}/GetFMECAHeaderByFMECAID?fmecaID=${id}`); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const updateFMECAHeader = createAsyncThunk<any, any>(
+
+    "@@riskAssessment/updateFMECAHeader",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.put(`${baseUrl}/UpdateFMECAHeader`, data); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const getPartRiskByFMECAId = createAsyncThunk<any, number>(
+
+    "@@systemFmeca/getPartRiskByFMECAId",
+
+    async (id, thunkAPI) => {
+
+        try {
+
+            const response = await axios.get(`${baseUrl}/GetPartRiskByFMECAId/${id}`); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const deletePartRiskFromDb = createAsyncThunk<boolean, any>(
+
+    "@@riskAssessment/deletePartRiskFromDb",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.delete(`${baseUrl}/DeletePartRisk`, { data });
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const createPartRisk = createAsyncThunk<any, any>(
+
+    "@@riskAssessment/createPartRisk",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.post(`${baseUrl}/CreatePartRisk`, data); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const updatePartRisk = createAsyncThunk<any, any>(
+
+    "@@riskAssessment/updatePartRisk",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.put(`${baseUrl}/UpdatePartRisk`, data); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const getFMECANotesByFMECAID = createAsyncThunk<any, number>(
+
+    "@@riskAssessment/getFMECANotesByFMECAID",
+
+    async (id, thunkAPI) => {
+
+        try {
+
+            const response = await axios.get(`${baseUrl}/GetFMECANotesByFMECAID?fmecaid=${id}`); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const createFMECANotes = createAsyncThunk<any, number>(
+
+    "@@riskAssessment/createFMECANotes",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.post(`${baseUrl}/CreateFMECANotes`, data); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const updateFMECANotes = createAsyncThunk<any, number>(
+
+    "@@riskAssessment/updateFMECANotes",
+
+    async (data, thunkAPI) => {
+
+        try {
+
+            const response = await axios.put(`${baseUrl}/UpdateFMECANotes`, data); //TODO: Based on logged in userid.
+
+            return response.data;
+
+        } catch (error) {
+
+            return thunkAPI.rejectWithValue(error);
+
+        }
+
+    }
+
+);
+
+ 
+
+export const systemFMECASlice = createSlice({
+
+    name: "systemFmeca",
+
+    initialState,
+
+    reducers: {
+
+        updatePart: (state, action: PayloadAction<any>) => {
+
+            let newRowData = [...state.partRiskData?.partRisk];
+
+ 
+
+            let index = newRowData.findIndex(
+
+                (element) => element.id === action.payload.id
+
+            );
+
+ 
+
+            newRowData[index] = action.payload;
+
+            state.partRiskData.partRisk = newRowData;
+
+        },
+
+    },
+
+    extraReducers: (builder) => {
+
+        builder.addCase(getPartRiskByFMECAId.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(getPartRiskByFMECAId.fulfilled, (state, action) => {
+
+            state.partRiskData = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(getPartRiskByFMECAId.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+        builder.addCase(getFMECAHeaderByFMECAID.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(getFMECAHeaderByFMECAID.fulfilled, (state, action) => {
+
+            state.fmecaHeader = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(getFMECAHeaderByFMECAID.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+        builder.addCase(updateFMECAHeader.pending, (state) => {
+
+            state.loading = true;
+
+            state.isModalShow = false;
+
+            state.isError = false;
+
+           
+
+        });
+
+        builder.addCase(updateFMECAHeader.fulfilled, (state, action) => {
+
+            state.updateFmecaHeader = action.payload;
+
+            state.loading = false;
+
+            state.isModalShow =true;
+
+            state.isError = false;
+
+        });
+
+        builder.addCase(updateFMECAHeader.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+            state.isModalShow =true;
+
+            state.isError = true;
+
+        });
+
+        builder.addCase(deletePartRiskFromDb.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(deletePartRiskFromDb.fulfilled, (state, action) => {
+
+            state.deletedPartRisk = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(deletePartRiskFromDb.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+        builder.addCase(createPartRisk.pending, (state) => {
+
+            state.loading = true;
+
+            state.isModalShow =false;
+
+            state.isError = false;
+
+        });
+
+        builder.addCase(createPartRisk.fulfilled, (state, action) => {
+
+            state.savedPartRiskToDb = action.payload;
+
+            state.loading = false;
+
+            state.isModalShow =true;
+
+            state.isError = false;
+
+        });
+
+        builder.addCase(createPartRisk.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+            state.isModalShow =true;
+
+            state.isError = true;
+
+        });
+
+        builder.addCase(updatePartRisk.pending, (state) => {
+
+            state.loading = true;
+
+            state.isModalShow =false;
+
+            state.isError = false;
+
+        });
+
+        builder.addCase(updatePartRisk.fulfilled, (state, action) => {
+
+            state.updatedPartRiskToDb = action.payload;
+
+            state.loading = false;
+
+            state.isModalShow =true;
+
+            state.isError = false;
+
+        });
+
+        builder.addCase(updatePartRisk.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+            state.isModalShow =true;
+
+            state.isError = true;
+
+        });
+
+        builder.addCase(getFMECANotesByFMECAID.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(getFMECANotesByFMECAID.fulfilled, (state, action) => {
+
+            state.fmecaNotes = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(getFMECANotesByFMECAID.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+        builder.addCase(createFMECANotes.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(createFMECANotes.fulfilled, (state, action) => {
+
+            state.createNote = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(createFMECANotes.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+        builder.addCase(updateFMECANotes.pending, (state) => {
+
+            state.loading = true;
+
+        });
+
+        builder.addCase(updateFMECANotes.fulfilled, (state, action) => {
+
+            state.updateNote = action.payload;
+
+            state.loading = false;
+
+        });
+
+        builder.addCase(updateFMECANotes.rejected, (state, action) => {
+
+            state.loading = false;
+
+            state.errors = action.payload;
+
+        });
+
+    },
+
+});
+
+ 
+
+export default systemFMECASlice.reducer;
+
+export const { updatePart } = systemFMECASlice.actions;

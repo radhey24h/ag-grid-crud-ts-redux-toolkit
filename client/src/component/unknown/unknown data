@@ -1,0 +1,2051 @@
+{
+
+    "partRisk": [
+
+        {
+
+            "id": 1,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 1,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "N006PARTS",
+
+            "partDescription": "N006PARTS",
+
+            "partFunction": "updated part function",
+
+            "potentialFailureMode": "Test potentialFailureMode",
+
+            "effectsofFailure": "Test effectsofFailure ",
+
+            "potentialCausesofFailureMode": "Test potentialCausesofFailureMode",
+
+            "causeType": 1,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "updated control",
+
+            "currentRankingSeverity": 1,
+
+            "currentRankingOccurrence": 5,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": "Test recommendedCorrectiveActions ",
+
+            "actionOwner": "Remya Gopinathannair --CNTR#X0143205",
+
+            "commitDate": "2023-02-17T06:00:00Z",
+
+            "revisedRankingSeverity": 5,
+
+            "revisedRankingOccurrence": 5,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 1,
+
+            "actionTaken": "string",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 13,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 1,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "N006PARTS",
+
+            "partDescription": "N006PARTS",
+
+            "partFunction": "test",
+
+            "potentialFailureMode": "test",
+
+            "effectsofFailure": "test",
+
+            "potentialCausesofFailureMode": "test",
+
+            "causeType": 2,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "test",
+
+            "currentRankingSeverity": 10,
+
+            "currentRankingOccurrence": 1,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": "test",
+
+            "actionOwner": "Saksham Shrestha --CNTR#X0143712",
+
+            "commitDate": "2023-02-20T00:00:00Z",
+
+            "revisedRankingSeverity": 10,
+
+            "revisedRankingOccurrence": 10,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 1,
+
+            "actionTaken": "test",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 18,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 1,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "N006PARTS",
+
+            "partDescription": "N006PARTS",
+
+            "partFunction": "updated part function",
+
+            "potentialFailureMode": "test",
+
+            "effectsofFailure": "test",
+
+            "potentialCausesofFailureMode": "test",
+
+            "causeType": 1,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "test",
+
+            "currentRankingSeverity": 10,
+
+            "currentRankingOccurrence": 5,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": "test",
+
+            "actionOwner": "Akshaykumarghanshyambhai Patel#181208",
+
+            "commitDate": "2023-02-22T00:00:00Z",
+
+            "revisedRankingSeverity": 1,
+
+            "revisedRankingOccurrence": 1,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 1,
+
+            "actionTaken": "test",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 72,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 1,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "N006PARTS",
+
+            "partDescription": "N006PARTS",
+
+            "partFunction": "test",
+
+            "potentialFailureMode": null,
+
+            "effectsofFailure": null,
+
+            "potentialCausesofFailureMode": null,
+
+            "causeType": 0,
+
+            "hazardType": 0,
+
+            "manufacturingControl": null,
+
+            "currentRankingSeverity": null,
+
+            "currentRankingOccurrence": null,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": null,
+
+            "actionOwner": null,
+
+            "commitDate": null,
+
+            "revisedRankingSeverity": null,
+
+            "revisedRankingOccurrence": null,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 0,
+
+            "actionTaken": null,
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 154,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 1,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "N006PARTS",
+
+            "partDescription": "N006PARTS",
+
+            "partFunction": "updated part function",
+
+            "potentialFailureMode": "test",
+
+            "effectsofFailure": "test",
+
+            "potentialCausesofFailureMode": "test",
+
+            "causeType": 4,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "test",
+
+            "currentRankingSeverity": 1,
+
+            "currentRankingOccurrence": 1,
+
+            "currentRankingDetectability": null,
+
+            "recommendedCorrectiveActions": "test",
+
+            "actionOwner": "Aditi Mithun#156559",
+
+            "commitDate": "2023-02-25T00:00:00Z",
+
+            "revisedRankingSeverity": 1,
+
+            "revisedRankingOccurrence": 1,
+
+            "revisedRankingDetectability": null,
+
+            "actionStatus": 1,
+
+            "actionTaken": null,
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 6,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 2,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "TEST1",
+
+            "partDescription": "TEST1 Description",
+
+            "partFunction": "testing",
+
+            "potentialFailureMode": "Test for Risk",
+
+            "effectsofFailure": "Test",
+
+            "potentialCausesofFailureMode": "Test",
+
+            "causeType": 3,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "Test",
+
+            "currentRankingSeverity": 10,
+
+            "currentRankingOccurrence": 5,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": "string",
+
+            "actionOwner": "Radheshyam Mishra --CNTR#Radheshyam Mishra --CNTR",
+
+            "commitDate": "2023-02-17T06:00:00Z",
+
+            "revisedRankingSeverity": 1,
+
+            "revisedRankingOccurrence": 10,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 1,
+
+            "actionTaken": "string",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 14,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 2,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "N006PARTS",
+
+            "partNumber": "TEST1",
+
+            "partDescription": "TEST1 Description",
+
+            "partFunction": "testing",
+
+            "potentialFailureMode": "testing",
+
+            "effectsofFailure": "testing",
+
+            "potentialCausesofFailureMode": "testing",
+
+            "causeType": 2,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "testing",
+
+            "currentRankingSeverity": 5,
+
+            "currentRankingOccurrence": 1,
+
+            "currentRankingDetectability": 0,
+
+            "recommendedCorrectiveActions": "testing",
+
+            "actionOwner": "Saksham Shrestha --CNTR#X0143712",
+
+            "commitDate": "2023-02-22T00:00:00Z",
+
+            "revisedRankingSeverity": 1,
+
+            "revisedRankingOccurrence": 5,
+
+            "revisedRankingDetectability": 0,
+
+            "actionStatus": 1,
+
+            "actionTaken": "testing",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "string",
+
+            "dynamicColumn2": "string",
+
+            "dynamicColumn3": "string",
+
+            "dynamicColumn4": "string",
+
+            "dynamicColumn5": "string"
+
+        },
+
+        {
+
+            "id": 15,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 9,
+
+            "parentBOMLevel": 1,
+
+            "parentPartNumber": "N006PARTS",
+
+            "parentPartDescription": "ADDITONAL PARTS FOR N006",
+
+            "partNumber": "0240-13689",
+
+            "partDescription": "KIT, BASIC BOTTOM VENT, NBLL, CENTURA-10RA-MF",
+
+            "partFunction": "",
+
+            "potentialFailureMode": "",
+
+            "effectsofFailure": "",
+
+            "potentialCausesofFailureMode": "",
+
+            "causeType": 0,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "",
+
+            "currentRankingSeverity": null,
+
+            "currentRankingOccurrence": null,
+
+            "currentRankingDetectability": null,
+
+            "recommendedCorrectiveActions": "",
+
+            "actionOwner": "",
+
+            "commitDate": null,
+
+            "revisedRankingSeverity": null,
+
+            "revisedRankingOccurrence": null,
+
+            "revisedRankingDetectability": null,
+
+            "actionStatus": 0,
+
+            "actionTaken": "",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "",
+
+            "dynamicColumn2": "",
+
+            "dynamicColumn3": "",
+
+            "dynamicColumn4": "",
+
+            "dynamicColumn5": ""
+
+        },
+
+        {
+
+            "id": 16,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 10,
+
+            "parentBOMLevel": 2,
+
+            "parentPartNumber": "0240-13689",
+
+            "parentPartDescription": "KIT, BASIC BOTTOM VENT, NBLL, CENTURA-10RA-MF",
+
+            "partNumber": "0050-76037",
+
+            "partDescription": "VENT LINE TEE NARROW BODY LLC",
+
+            "partFunction": "",
+
+            "potentialFailureMode": "",
+
+            "effectsofFailure": "",
+
+            "potentialCausesofFailureMode": "",
+
+            "causeType": 0,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "",
+
+            "currentRankingSeverity": null,
+
+            "currentRankingOccurrence": null,
+
+            "currentRankingDetectability": null,
+
+            "recommendedCorrectiveActions": "",
+
+            "actionOwner": "",
+
+            "commitDate": null,
+
+            "revisedRankingSeverity": null,
+
+            "revisedRankingOccurrence": null,
+
+            "revisedRankingDetectability": null,
+
+            "actionStatus": 0,
+
+            "actionTaken": "",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "",
+
+            "dynamicColumn2": "",
+
+            "dynamicColumn3": "",
+
+            "dynamicColumn4": "",
+
+            "dynamicColumn5": ""
+
+        },
+
+        {
+
+            "id": 17,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 11,
+
+            "parentBOMLevel": 3,
+
+            "parentPartNumber": "0050-76037",
+
+            "parentPartDescription": "VENT LINE TEE NARROW BODY LLC",
+
+            "partNumber": "0250-27028",
+
+            "partDescription": "SPECIFICATION FOR GAS DISTRIBUTION WELDMENT FABRIC",
+
+            "partFunction": "",
+
+            "potentialFailureMode": "",
+
+            "effectsofFailure": "",
+
+            "potentialCausesofFailureMode": "",
+
+            "causeType": 0,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "",
+
+            "currentRankingSeverity": null,
+
+            "currentRankingOccurrence": null,
+
+            "currentRankingDetectability": null,
+
+            "recommendedCorrectiveActions": "",
+
+            "actionOwner": "",
+
+            "commitDate": null,
+
+            "revisedRankingSeverity": null,
+
+            "revisedRankingOccurrence": null,
+
+            "revisedRankingDetectability": null,
+
+            "actionStatus": 0,
+
+            "actionTaken": "",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "",
+
+            "dynamicColumn2": "",
+
+            "dynamicColumn3": "",
+
+            "dynamicColumn4": "",
+
+            "dynamicColumn5": ""
+
+        },
+
+        {
+
+            "id": 73,
+
+            "referenceFMECAID": 1001,
+
+            "referencePartID": 73,
+
+            "parentBOMLevel": 4,
+
+            "parentPartNumber": "0250-27028",
+
+            "parentPartDescription": "SPECIFICATION FOR GAS DISTRIBUTION WELDMENT FABRIC",
+
+            "partNumber": "TEST_BOM_TRIDENT",
+
+            "partDescription": "test",
+
+            "partFunction": "",
+
+            "potentialFailureMode": "",
+
+            "effectsofFailure": "",
+
+            "potentialCausesofFailureMode": "",
+
+            "causeType": 0,
+
+            "hazardType": 0,
+
+            "manufacturingControl": "",
+
+            "currentRankingSeverity": null,
+
+            "currentRankingOccurrence": null,
+
+            "currentRankingDetectability": null,
+
+            "recommendedCorrectiveActions": "",
+
+            "actionOwner": "",
+
+            "commitDate": null,
+
+            "revisedRankingSeverity": null,
+
+            "revisedRankingOccurrence": null,
+
+            "revisedRankingDetectability": null,
+
+            "actionStatus": 0,
+
+            "actionTaken": "",
+
+            "isCriticalRisk": null,
+
+            "dynamicColumn1": "",
+
+            "dynamicColumn2": "",
+
+            "dynamicColumn3": "",
+
+            "dynamicColumn4": "",
+
+            "dynamicColumn5": ""
+
+        }
+
+    ],
+
+    "partRiskGridHeader": [
+
+        {
+
+            "id": 219,
+
+            "field": "id",
+
+            "fmecaType": 0,
+
+            "headerName": "ID",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": false,
+
+            "orderBy": 1,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 220,
+
+            "field": "referenceFMECAID",
+
+            "fmecaType": 0,
+
+            "headerName": "Reference FMECAID",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": false,
+
+            "orderBy": 2,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 221,
+
+            "field": "sequenceId",
+
+            "fmecaType": 0,
+
+            "headerName": "Item Id",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 3,
+
+            "maxWidth": null,
+
+            "minWidth": 110,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 222,
+
+            "field": "parentBOMLevel",
+
+            "fmecaType": 0,
+
+            "headerName": "BOM Level",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 4,
+
+            "maxWidth": null,
+
+            "minWidth": 130,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 223,
+
+            "field": "parentPartNumber",
+
+            "fmecaType": 0,
+
+            "headerName": "Parent Part #",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 5,
+
+            "maxWidth": null,
+
+            "minWidth": 145,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 224,
+
+            "field": "parentPartDescription",
+
+            "fmecaType": 0,
+
+            "headerName": "Parent Part Description",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 6,
+
+            "maxWidth": null,
+
+            "minWidth": 240,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 225,
+
+            "field": "partNumber",
+
+            "fmecaType": 0,
+
+            "headerName": "Part #",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 7,
+
+            "maxWidth": null,
+
+            "minWidth": 120,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 226,
+
+            "field": "partDescription",
+
+            "fmecaType": 0,
+
+            "headerName": "Part Description",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 8,
+
+            "maxWidth": null,
+
+            "minWidth": 250,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 227,
+
+            "field": "partFunction",
+
+            "fmecaType": 0,
+
+            "headerName": "Part Function",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 9,
+
+            "maxWidth": null,
+
+            "minWidth": 200,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 228,
+
+            "field": "attachments",
+
+            "fmecaType": 0,
+
+            "headerName": "Attachments",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 10,
+
+            "maxWidth": null,
+
+            "minWidth": 144,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 229,
+
+            "field": "potentialFailureMode",
+
+            "fmecaType": 0,
+
+            "headerName": "Potential Failure Mode",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 11,
+
+            "maxWidth": null,
+
+            "minWidth": 206,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agLargeTextCellEditor",
+
+            "cellEditorPopup": false,
+
+            "cellStyle": "causeTypeDependentStyle",
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 230,
+
+            "field": "effectsofFailure",
+
+            "fmecaType": 0,
+
+            "headerName": "Effects of Failure",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 12,
+
+            "maxWidth": null,
+
+            "minWidth": 167,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agLargeTextCellEditor",
+
+            "cellEditorPopup": false,
+
+            "cellStyle": "causeTypeDependentStyle",
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 231,
+
+            "field": "potentialCausesofFailureMode",
+
+            "fmecaType": 0,
+
+            "headerName": "Potential Causes of Failure Mode",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 13,
+
+            "maxWidth": null,
+
+            "minWidth": 265,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agLargeTextCellEditor",
+
+            "cellEditorPopup": false,
+
+            "cellStyle": "causeTypeDependentStyle",
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 232,
+
+            "field": "causeType",
+
+            "fmecaType": 0,
+
+            "headerName": "Cause Type",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 14,
+
+            "maxWidth": null,
+
+            "minWidth": 140,
+
+            "cellRenderer": "colorCellRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agRichSelectCellEditor",
+
+            "cellEditorPopup": true,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "causeTypeCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 233,
+
+            "field": "manufacturingControl",
+
+            "fmecaType": 0,
+
+            "headerName": "Manufacturing Control",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 15,
+
+            "maxWidth": null,
+
+            "minWidth": 240,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 234,
+
+            "field": "currentRankingSeverity",
+
+            "fmecaType": 0,
+
+            "headerName": "Severity(S)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 16,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": "currentRankingSeverityRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agSelectCellEditor",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "rankingCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 235,
+
+            "field": "currentRankingOccurrence",
+
+            "fmecaType": 0,
+
+            "headerName": "Occurrence(O)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 17,
+
+            "maxWidth": null,
+
+            "minWidth": 155,
+
+            "cellRenderer": "currentRankingOccurrenceRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agSelectCellEditor",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "rankingCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 236,
+
+            "field": "criticality",
+
+            "fmecaType": 0,
+
+            "headerName": "Criticality(SO)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 18,
+
+            "maxWidth": null,
+
+            "minWidth": 155,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 237,
+
+            "field": "recommendedCorrectiveActions",
+
+            "fmecaType": 0,
+
+            "headerName": "Recommended Corrective Actions",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 19,
+
+            "maxWidth": null,
+
+            "minWidth": 277,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 238,
+
+            "field": "actionAttachments",
+
+            "fmecaType": 0,
+
+            "headerName": "Action Attachments",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 20,
+
+            "maxWidth": null,
+
+            "minWidth": 186,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 239,
+
+            "field": "actionItem",
+
+            "fmecaType": 0,
+
+            "headerName": "Action Item",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 21,
+
+            "maxWidth": null,
+
+            "minWidth": 135,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 240,
+
+            "field": "actionOwner",
+
+            "fmecaType": 0,
+
+            "headerName": "Action Owner",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 22,
+
+            "maxWidth": null,
+
+            "minWidth": 180,
+
+            "cellRenderer": null,
+
+            "valueSetter": "actionOwnerValueSetter",
+
+            "cellEditor": "AutocompleteSelectCellEditor",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": "actionOwnerValueFormatter"
+
+        },
+
+        {
+
+            "id": 241,
+
+            "field": "commitDate",
+
+            "fmecaType": 0,
+
+            "headerName": "Commit Date",
+
+            "dataType": "Datetime",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 23,
+
+            "maxWidth": null,
+
+            "minWidth": 135,
+
+            "cellRenderer": null,
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "datePicker",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": "commitDateValueFormatter"
+
+        },
+
+        {
+
+            "id": 242,
+
+            "field": "revisedRankingServerity",
+
+            "fmecaType": 0,
+
+            "headerName": "Serverity(S)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 24,
+
+            "maxWidth": null,
+
+            "minWidth": 142,
+
+            "cellRenderer": "revisedRankingSeverityRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agSelectCellEditor",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "rankingCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 243,
+
+            "field": "revisedRankingOccurrence",
+
+            "fmecaType": 0,
+
+            "headerName": "Occurrence(O)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 25,
+
+            "maxWidth": null,
+
+            "minWidth": 155,
+
+            "cellRenderer": "revisedRankingOccurrenceRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agSelectCellEditor",
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "rankingCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 244,
+
+            "field": "revisedCriticality",
+
+            "fmecaType": 0,
+
+            "headerName": "RevisedCriticality(SO)",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": false,
+
+            "orderBy": 26,
+
+            "maxWidth": null,
+
+            "minWidth": 205,
+
+            "cellRenderer": "revisedCriticalityField",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 245,
+
+            "field": "actionStatus",
+
+            "fmecaType": 0,
+
+            "headerName": "Action Status",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 27,
+
+            "maxWidth": null,
+
+            "minWidth": 145,
+
+            "cellRenderer": "agLargeTextCellEditor",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": null,
+
+            "cellEditorPopup": true,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 246,
+
+            "field": "actionTaken",
+
+            "fmecaType": 0,
+
+            "headerName": "Action Taken",
+
+            "dataType": "string",
+
+            "isVisible": true,
+
+            "editable": true,
+
+            "orderBy": 28,
+
+            "maxWidth": null,
+
+            "minWidth": 145,
+
+            "cellRenderer": "actionStatusRenderer",
+
+            "valueSetter": "valueSetterToRedux",
+
+            "cellEditor": "agRichSelectCellEditor",
+
+            "cellEditorPopup": true,
+
+            "cellStyle": null,
+
+            "cellEditorParams": "actionStatusCellEditorParams",
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 247,
+
+            "field": "isDelete",
+
+            "fmecaType": 0,
+
+            "headerName": "IsDelete",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": false,
+
+            "orderBy": 29,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 248,
+
+            "field": "dynamicColumn1",
+
+            "fmecaType": 0,
+
+            "headerName": "Dynamic Column 1",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": true,
+
+            "orderBy": 30,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 249,
+
+            "field": "dynamicColumn2",
+
+            "fmecaType": 0,
+
+            "headerName": "Dynamic Column 2",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": true,
+
+            "orderBy": 31,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 250,
+
+            "field": "dynamicColumn3",
+
+            "fmecaType": 0,
+
+            "headerName": "Dynamic Column 3",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": true,
+
+            "orderBy": 32,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 251,
+
+            "field": "dynamicColumn4",
+
+            "fmecaType": 0,
+
+            "headerName": "Dynamic Column 4",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": true,
+
+            "orderBy": 33,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        },
+
+        {
+
+            "id": 252,
+
+            "field": "dynamicColumn5",
+
+            "fmecaType": 0,
+
+            "headerName": "Dynamic Column 5",
+
+            "dataType": "string",
+
+            "isVisible": false,
+
+            "editable": true,
+
+            "orderBy": 34,
+
+            "maxWidth": null,
+
+            "minWidth": null,
+
+            "cellRenderer": null,
+
+            "valueSetter": null,
+
+            "cellEditor": null,
+
+            "cellEditorPopup": null,
+
+            "cellStyle": null,
+
+            "cellEditorParams": null,
+
+            "valueFormatter": null
+
+        }
+
+    ]
+
+}

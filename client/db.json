@@ -1,0 +1,19 @@
+{
+    "causeTypes" : [
+        {
+            "id": "1",
+            "causeType": "1",
+            "colorCode": "Red"
+        },
+        {
+            "id": "2",
+            "causeType": "2",
+            "colorCode": "Black"
+        },
+        {
+            "id": "3",
+            "causeType": "3",
+            "colorCode": "Green"
+        }
+    ]
+}
